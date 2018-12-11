@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Rick Hollinski/Dropbox/Projekte/Wörteruhr/Platine/Platine.sch</source>
+    <date>31.08.2018 00:10:59</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Platine.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>WeMos_mini</value>
+      <footprint>wemos_d1_mini:D1_mini_board</footprint>
+      <libsource lib="wemos_mini" part="WeMos_mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B88451B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B884608</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>I2C</value>
+      <footprint>Wire_Pads:SolderWirePad_4xInline_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B884775</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Wire_Pads:SolderWirePad_3x_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8848E2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8849DF</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>WWA_Led</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B884EB6</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Temp_Led</value>
+      <footprint>Wire_Pads:SolderWirePad_single_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B884F2E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B88503D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B885092</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>IR Receiver</value>
+      <footprint>Wire_Pads:SolderWirePad_3x_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B88531E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="2N3904"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B88567D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B885718</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Buzzer</value>
+      <footprint>Wire_Pads:SolderWirePad_2x_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8857F3</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>I2C</value>
+      <footprint>Wire_Pads:SolderWirePad_4xInline_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8859AB</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>LDR</value>
+      <footprint>Wire_Pads:SolderWirePad_2x_1-2mmDrill</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B88603F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="2N3904">
+      <description>40V Vce, 0.2A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="wemos_mini" part="WeMos_mini">
+      <description>WeMos D1 mini</description>
+      <docs>http://www.wemos.cc/Products/d1_mini.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WeMos_mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D4" type="BiDi"/>
+        <pin num="4" name="D3" type="BiDi"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D1" type="BiDi"/>
+        <pin num="7" name="Rx" type="BiDi"/>
+        <pin num="8" name="Tx" type="BiDi"/>
+        <pin num="9" name="Rst" type="BiDi"/>
+        <pin num="10" name="A0" type="BiDi"/>
+        <pin num="11" name="D0" type="BiDi"/>
+        <pin num="12" name="D5" type="BiDi"/>
+        <pin num="13" name="D6" type="BiDi"/>
+        <pin num="14" name="D7" type="BiDi"/>
+        <pin num="15" name="D8" type="BiDi"/>
+        <pin num="16" name="3.3V" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="wemos_mini">
+      <uri>C:\Program Files\KiCad\share\kicad\template\d1_mini_kicad\library\wemos_mini.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="3"/>
+      <node ref="J7" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J5-Pad1)">
+      <node ref="U1" pin="12"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="5" name="Net-(Q1-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="9" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="12" name="+5V">
+      <node ref="J6" pin="1"/>
+      <node ref="J7" pin="4"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J7-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+  </nets>
+</export>

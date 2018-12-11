@@ -1,0 +1,696 @@
+EESchema Schematic File Version 4
+LIBS:Platine-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Platine-rescue:+5V #PWR08
+U 1 1 5B884592
+P 4800 2800
+F 0 "#PWR08" H 4800 2650 50  0001 C CNN
+F 1 "+5V" H 4800 2940 50  0000 C CNN
+F 2 "" H 4800 2800 50  0001 C CNN
+F 3 "" H 4800 2800 50  0001 C CNN
+	1    4800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR06
+U 1 1 5B8845A8
+P 4550 2700
+F 0 "#PWR06" H 4550 2450 50  0001 C CNN
+F 1 "GND" H 4550 2550 50  0000 C CNN
+F 2 "" H 4550 2700 50  0001 C CNN
+F 3 "" H 4550 2700 50  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:R R5
+U 1 1 5B884608
+P 6750 4200
+F 0 "R5" V 6830 4200 50  0000 C CNN
+F 1 "20k" V 6750 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 4200 50  0001 C CNN
+F 3 "" H 6750 4200 50  0001 C CNN
+	1    6750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:+3.3V #PWR09
+U 1 1 5B88468E
+P 6100 2850
+F 0 "#PWR09" H 6100 2700 50  0001 C CNN
+F 1 "+3.3V" H 6100 2990 50  0000 C CNN
+F 2 "" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR015
+U 1 1 5B8846C3
+P 6750 4300
+F 0 "#PWR015" H 6750 4050 50  0001 C CNN
+F 1 "GND" H 6750 4150 50  0000 C CNN
+F 2 "" H 6750 4300 50  0001 C CNN
+F 3 "" H 6750 4300 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:+3.3V #PWR05
+U 1 1 5B884876
+P 2900 2450
+F 0 "#PWR05" H 2900 2300 50  0001 C CNN
+F 1 "+3.3V" H 2900 2590 50  0000 C CNN
+F 2 "" H 2900 2450 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+	1    2900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR02
+U 1 1 5B8848A2
+P 4600 2150
+F 0 "#PWR02" H 4600 1900 50  0001 C CNN
+F 1 "GND" H 4600 2000 50  0000 C CNN
+F 2 "" H 4600 2150 50  0001 C CNN
+F 3 "" H 4600 2150 50  0001 C CNN
+	1    4600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J3
+U 1 1 5B884EB6
+P 6200 2300
+F 0 "J3" H 6200 2400 50  0000 C CNN
+F 1 "Led1" H 6200 2200 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 6200 2300 50  0001 C CNN
+F 3 "" H 6200 2300 50  0001 C CNN
+	1    6200 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:R R3
+U 1 1 5B88503D
+P 6400 2850
+F 0 "R3" V 6480 2850 50  0000 C CNN
+F 1 "220" V 6400 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6330 2850 50  0001 C CNN
+F 3 "" H 6400 2850 50  0001 C CNN
+	1    6400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:R R4
+U 1 1 5B885092
+P 6950 1950
+F 0 "R4" V 7030 1950 50  0000 C CNN
+F 1 "220" V 6950 1950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6880 1950 50  0001 C CNN
+F 3 "" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Platine-rescue:R R6
+U 1 1 5B885718
+P 3750 4400
+F 0 "R6" V 3830 4400 50  0000 C CNN
+F 1 "1k" V 3750 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 4400 50  0001 C CNN
+F 3 "" H 3750 4400 50  0001 C CNN
+	1    3750 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR017
+U 1 1 5B885938
+P 3150 4700
+F 0 "#PWR017" H 3150 4450 50  0001 C CNN
+F 1 "GND" H 3150 4550 50  0000 C CNN
+F 2 "" H 3150 4700 50  0001 C CNN
+F 3 "" H 3150 4700 50  0001 C CNN
+	1    3150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2900 4800 2900
+Wire Wire Line
+	4800 2900 4800 2800
+Wire Wire Line
+	6750 3800 6750 3950
+Wire Wire Line
+	6750 4350 6750 4300
+Wire Wire Line
+	6450 3950 6750 3950
+Connection ~ 6750 3950
+Wire Wire Line
+	6100 2850 6100 2900
+Wire Wire Line
+	6100 2900 6000 2900
+Wire Wire Line
+	4550 2700 4650 2700
+Wire Wire Line
+	4650 2700 4650 3000
+Wire Wire Line
+	4650 3000 5000 3000
+Wire Wire Line
+	2900 2450 2900 2550
+Wire Wire Line
+	4600 2100 4600 2150
+Wire Wire Line
+	6600 3100 6600 2600
+Wire Wire Line
+	5000 3500 4800 3500
+Wire Wire Line
+	4800 3500 4800 4700
+Wire Wire Line
+	4900 4800 4900 3600
+Wire Wire Line
+	4900 3600 5000 3600
+Wire Wire Line
+	7150 1950 7100 1950
+Wire Wire Line
+	6450 3950 6450 3500
+Wire Wire Line
+	6450 3500 6000 3500
+Wire Wire Line
+	6000 3100 6600 3100
+Wire Wire Line
+	6400 3000 6000 3000
+Wire Wire Line
+	6400 2700 6400 2300
+Wire Wire Line
+	4300 2650 3600 2650
+Wire Wire Line
+	5000 3100 4300 3100
+Wire Wire Line
+	4300 3100 4300 2650
+Wire Wire Line
+	5000 3200 4200 3200
+Wire Wire Line
+	4200 3200 4200 2750
+Wire Wire Line
+	4200 2750 3800 2750
+Wire Wire Line
+	3150 4600 3150 4700
+Wire Wire Line
+	3150 4050 3150 4200
+Wire Wire Line
+	3600 4400 3450 4400
+Wire Wire Line
+	5000 3400 4750 3400
+Wire Wire Line
+	4750 3400 4750 4100
+Wire Wire Line
+	4750 4100 3900 4100
+Wire Wire Line
+	3900 4100 3900 4400
+Wire Wire Line
+	6750 3950 6750 4050
+$Comp
+L Platine-rescue:R R1
+U 1 1 5C3C1A30
+P 3600 2450
+F 0 "R1" V 3680 2450 50  0000 C CNN
+F 1 "10k" V 3600 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3530 2450 50  0001 C CNN
+F 3 "" H 3600 2450 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:R R2
+U 1 1 5C3C1ACA
+P 3800 2450
+F 0 "R2" V 3880 2450 50  0000 C CNN
+F 1 "10" V 3800 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0001 C CNN
+	1    3800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2600 3600 2650
+Connection ~ 3600 2650
+Wire Wire Line
+	3600 2650 2900 2650
+Wire Wire Line
+	3800 2600 3800 2750
+Connection ~ 3800 2750
+Wire Wire Line
+	3800 2750 2900 2750
+$Comp
+L Platine-rescue:+3.3V #PWR03
+U 1 1 5C3C39CD
+P 3700 2250
+F 0 "#PWR03" H 3700 2100 50  0001 C CNN
+F 1 "+3.3V" H 3700 2390 50  0000 C CNN
+F 2 "" H 3700 2250 50  0001 C CNN
+F 3 "" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2250 3600 2300
+Wire Wire Line
+	3600 2250 3700 2250
+Wire Wire Line
+	3700 2250 3800 2250
+Wire Wire Line
+	3800 2250 3800 2300
+Connection ~ 3700 2250
+$Comp
+L Platine-rescue:Conn_01x01 J5
+U 1 1 5C3C91EA
+P 2700 2550
+F 0 "J5" H 2800 2550 50  0000 C CNN
+F 1 "3.3V" H 2700 2450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2700 2550 50  0001 C CNN
+F 3 "" H 2700 2550 50  0001 C CNN
+	1    2700 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J9
+U 1 1 5C3C92B6
+P 2700 2750
+F 0 "J9" H 3000 2750 50  0000 C CNN
+F 1 "SCL" H 2850 2750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2700 2750 50  0001 C CNN
+F 3 "" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J2
+U 1 1 5C3C92EC
+P 4400 2100
+F 0 "J2" H 4500 2100 50  0000 C CNN
+F 1 "Gnd" H 4400 2200 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J7
+U 1 1 5C3CAB34
+P 2700 2650
+F 0 "J7" H 3000 2650 50  0000 C CNN
+F 1 "SDA" H 2850 2650 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2700 2650 50  0001 C CNN
+F 3 "" H 2700 2650 50  0001 C CNN
+	1    2700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J1
+U 1 1 5C3CAB95
+P 4400 1950
+F 0 "J1" H 4500 1950 50  0000 C CNN
+F 1 "5V" H 4400 1850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4400 1950 50  0001 C CNN
+F 3 "" H 4400 1950 50  0001 C CNN
+	1    4400 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:+5V #PWR01
+U 1 1 5C3CAC26
+P 4600 1900
+F 0 "#PWR01" H 4600 1750 50  0001 C CNN
+F 1 "+5V" H 4600 2040 50  0000 C CNN
+F 2 "" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1900 4600 1950
+$Comp
+L Platine-rescue:GND #PWR010
+U 1 1 5C3CF905
+P 2900 2900
+F 0 "#PWR010" H 2900 2650 50  0001 C CNN
+F 1 "GND" H 2900 2750 50  0000 C CNN
+F 2 "" H 2900 2900 50  0001 C CNN
+F 3 "" H 2900 2900 50  0001 C CNN
+	1    2900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2850 2900 2900
+$Comp
+L Platine-rescue:Conn_01x01 J10
+U 1 1 5C3CF90C
+P 2700 2850
+F 0 "J10" H 2850 2850 50  0000 C CNN
+F 1 "Gnd" H 2700 2950 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2700 2850 50  0001 C CNN
+F 3 "" H 2700 2850 50  0001 C CNN
+	1    2700 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J12
+U 1 1 5C3D0B7C
+P 7350 1950
+F 0 "J12" H 7350 1850 50  0000 C CNN
+F 1 "LED2" H 7650 1950 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7350 1950 50  0001 C CNN
+F 3 "" H 7350 1950 50  0001 C CNN
+	1    7350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J17
+U 1 1 5C3D0DE9
+P 2950 3850
+F 0 "J17" H 3100 3850 50  0000 C CNN
+F 1 "5V" H 2950 3750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0001 C CNN
+	1    2950 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:+5V #PWR014
+U 1 1 5C3D0DEF
+P 3150 3800
+F 0 "#PWR014" H 3150 3650 50  0001 C CNN
+F 1 "+5V" H 3150 3940 50  0000 C CNN
+F 2 "" H 3150 3800 50  0001 C CNN
+F 3 "" H 3150 3800 50  0001 C CNN
+	1    3150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3800 3150 3850
+$Comp
+L Platine-rescue:Conn_01x01 J18
+U 1 1 5C3D2172
+P 2950 4050
+F 0 "J18" H 3350 4050 50  0000 C CNN
+F 1 "Buzzer" H 3150 4050 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 2950 4050 50  0001 C CNN
+F 3 "" H 2950 4050 50  0001 C CNN
+	1    2950 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:+3.3V #PWR04
+U 1 1 5C3D5B7B
+P 7950 2400
+F 0 "#PWR04" H 7950 2250 50  0001 C CNN
+F 1 "+3.3V" H 7950 2540 50  0000 C CNN
+F 2 "" H 7950 2400 50  0001 C CNN
+F 3 "" H 7950 2400 50  0001 C CNN
+	1    7950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2400 7950 2500
+$Comp
+L Platine-rescue:Conn_01x01 J4
+U 1 1 5C3D5B82
+P 7750 2500
+F 0 "J4" H 7850 2500 50  0000 C CNN
+F 1 "3.3V" H 7750 2400 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7750 2500 50  0001 C CNN
+F 3 "" H 7750 2500 50  0001 C CNN
+	1    7750 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR07
+U 1 1 5C3D6EFC
+P 7950 2750
+F 0 "#PWR07" H 7950 2500 50  0001 C CNN
+F 1 "GND" H 7950 2600 50  0000 C CNN
+F 2 "" H 7950 2750 50  0001 C CNN
+F 3 "" H 7950 2750 50  0001 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 7950 2750
+$Comp
+L Platine-rescue:Conn_01x01 J8
+U 1 1 5C3D6F03
+P 7750 2700
+F 0 "J8" H 7850 2700 50  0000 C CNN
+F 1 "Gnd" H 7750 2800 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7750 2700 50  0001 C CNN
+F 3 "" H 7750 2700 50  0001 C CNN
+	1    7750 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J6
+U 1 1 5C3DA679
+P 7750 2600
+F 0 "J6" H 8250 2600 50  0000 C CNN
+F 1 "IR" H 8000 2600 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7750 2600 50  0001 C CNN
+F 3 "" H 7750 2600 50  0001 C CNN
+	1    7750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2600 7550 2600
+$Comp
+L Platine-rescue:+3.3V #PWR016
+U 1 1 5C3DBC49
+P 4650 4500
+F 0 "#PWR016" H 4650 4350 50  0001 C CNN
+F 1 "+3.3V" H 4650 4640 50  0000 C CNN
+F 2 "" H 4650 4500 50  0001 C CNN
+F 3 "" H 4650 4500 50  0001 C CNN
+	1    4650 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4500 4650 4600
+$Comp
+L Platine-rescue:Conn_01x01 J19
+U 1 1 5C3DBC52
+P 4450 4600
+F 0 "J19" H 4600 4600 50  0000 C CNN
+F 1 "3.3V" H 4450 4500 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4450 4600 50  0001 C CNN
+F 3 "" H 4450 4600 50  0001 C CNN
+	1    4450 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J21
+U 1 1 5C3DBC58
+P 4450 4800
+F 0 "J21" H 4750 4800 50  0000 C CNN
+F 1 "Tx" H 4600 4800 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4450 4800 50  0001 C CNN
+F 3 "" H 4450 4800 50  0001 C CNN
+	1    4450 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J20
+U 1 1 5C3DBC5E
+P 4450 4700
+F 0 "J20" H 4750 4700 50  0000 C CNN
+F 1 "Rx" H 4600 4700 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4450 4700 50  0001 C CNN
+F 3 "" H 4450 4700 50  0001 C CNN
+	1    4450 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR018
+U 1 1 5C3DBC64
+P 4650 4950
+F 0 "#PWR018" H 4650 4700 50  0001 C CNN
+F 1 "GND" H 4650 4800 50  0000 C CNN
+F 2 "" H 4650 4950 50  0001 C CNN
+F 3 "" H 4650 4950 50  0001 C CNN
+	1    4650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4900 4650 4950
+$Comp
+L Platine-rescue:Conn_01x01 J22
+U 1 1 5C3DBC6B
+P 4450 4900
+F 0 "J22" H 4600 4900 50  0000 C CNN
+F 1 "Gnd" H 4450 5000 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 4450 4900 50  0001 C CNN
+F 3 "" H 4450 4900 50  0001 C CNN
+	1    4450 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4700 4650 4700
+Wire Wire Line
+	4900 4800 4650 4800
+$Comp
+L Platine-rescue:+3.3V #PWR013
+U 1 1 5C3DF484
+P 6750 3600
+F 0 "#PWR013" H 6750 3450 50  0001 C CNN
+F 1 "+3.3V" H 6750 3740 50  0000 C CNN
+F 2 "" H 6750 3600 50  0001 C CNN
+F 3 "" H 6750 3600 50  0001 C CNN
+	1    6750 3600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3600 6750 3700
+$Comp
+L Platine-rescue:Conn_01x01 J15
+U 1 1 5C3DF48B
+P 6950 3700
+F 0 "J15" H 7050 3700 50  0000 C CNN
+F 1 "3.3V" H 6950 3600 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 6950 3700 50  0001 C CNN
+F 3 "" H 6950 3700 50  0001 C CNN
+	1    6950 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J16
+U 1 1 5C3E187C
+P 6950 3800
+F 0 "J16" H 7250 3800 50  0000 C CNN
+F 1 "LDR" H 7100 3800 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0001 C CNN
+	1    6950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Platine-rescue:+3.3V #PWR011
+U 1 1 5C3E6001
+P 7350 3100
+F 0 "#PWR011" H 7350 2950 50  0001 C CNN
+F 1 "+3.3V" H 7350 3240 50  0000 C CNN
+F 2 "" H 7350 3100 50  0001 C CNN
+F 3 "" H 7350 3100 50  0001 C CNN
+	1    7350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3100 7350 3200
+$Comp
+L Platine-rescue:Conn_01x01 J11
+U 1 1 5C3E6008
+P 7150 3200
+F 0 "J11" H 7300 3200 50  0000 C CNN
+F 1 "3.3V" H 7150 3100 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    7150 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:GND #PWR012
+U 1 1 5C3E600E
+P 7350 3450
+F 0 "#PWR012" H 7350 3200 50  0001 C CNN
+F 1 "GND" H 7350 3300 50  0000 C CNN
+F 2 "" H 7350 3450 50  0001 C CNN
+F 3 "" H 7350 3450 50  0001 C CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3400 7350 3450
+$Comp
+L Platine-rescue:Conn_01x01 J14
+U 1 1 5C3E6015
+P 7150 3400
+F 0 "J14" H 7300 3400 50  0000 C CNN
+F 1 "Gnd" H 7150 3500 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7150 3400 50  0001 C CNN
+F 3 "" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Platine-rescue:Conn_01x01 J13
+U 1 1 5C3E601B
+P 7150 3300
+F 0 "J13" H 7550 3300 50  0000 C CNN
+F 1 "DHT11" H 7350 3300 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D3.0mm" H 7150 3300 50  0001 C CNN
+F 3 "" H 7150 3300 50  0001 C CNN
+	1    7150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3300 6950 3300
+$Comp
+L wemos_mini:WeMos_mini U1
+U 1 1 5C3EA837
+P 5500 3250
+F 0 "U1" H 5500 3887 60  0000 C CNN
+F 1 "WeMos_mini" H 5500 3781 60  0000 C CNN
+F 2 "wemos-d1-mini:wemos-d1-mini-connectors-only" H 6050 2550 60  0001 C CNN
+F 3 "http://www.wemos.cc/Products/d1_mini.html" H 5500 3781 60  0001 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5BD8CE1A
+P 3250 4400
+F 0 "Q1" H 3441 4446 50  0000 L CNN
+F 1 "S8050" H 3441 4355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3450 4500 50  0001 C CNN
+F 3 "~" H 3250 4400 50  0001 C CNN
+	1    3250 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1950 6800 3200
+Wire Wire Line
+	6800 3200 6000 3200
+$Comp
+L Device:C C1
+U 1 1 5BD8F5C8
+P 6450 4100
+F 0 "C1" H 6565 4146 50  0000 L CNN
+F 1 "1µ" H 6565 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6488 3950 50  0001 C CNN
+F 3 "~" H 6450 4100 50  0001 C CNN
+	1    6450 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 3950
+$Comp
+L Platine-rescue:GND #PWR0101
+U 1 1 5BD8F6A8
+P 6450 4300
+F 0 "#PWR0101" H 6450 4050 50  0001 C CNN
+F 1 "GND" H 6450 4150 50  0000 C CNN
+F 2 "" H 6450 4300 50  0001 C CNN
+F 3 "" H 6450 4300 50  0001 C CNN
+	1    6450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4250 6450 4300
+$EndSCHEMATC
