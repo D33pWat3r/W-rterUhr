@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Platine-rescue)(type Legacy)(uri ${KIPRJMOD}/Platine-rescue.lib)(options "")(descr ""))
-  (lib (name wemos_mini)(type Legacy)(uri ${KIPRJMOD}/wemos-d1-mini-kicad-master/libraries/wemos_mini.lib)(options "")(descr ""))
-)
